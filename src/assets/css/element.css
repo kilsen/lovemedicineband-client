@@ -1,0 +1,84 @@
+
+.navbar-default {
+  background: rgba(0, 0, 102, 0.3);
+  border-color: transparent
+}
+
+.navbar-default .navbar-collapse {
+  border-color: rgba(255, 255, 255, .02)
+}
+
+.navbar-default .navbar-toggle {
+  background-color: #fed136;
+  border-color: #fed136
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #fed136
+}
+
+.navbar-default .nav li a {
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #000
+}
+
+.navbar-default .nav li a:hover, .navbar-default .nav li a:focus {
+  color: #fed136;
+  outline: 0
+}
+
+.navbar-default .navbar-nav > .active > a {
+  border-radius: 0;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #fec503
+}
+
+@media (min-width: 768px) {
+  .navbar-default {
+    background: rgba(101, 101, 12, 0.3);
+    padding: 20px 0;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+    border: 0
+  }
+
+  .navbar-default .navbar-brand {
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+  }
+
+  .navbar-default .navbar-nav > .active > a {
+    border-radius: 3px
+  }
+
+  .navbar-default.navbar-shrink {
+    background-color: #162431 !important;
+    padding: 5px 0;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+
+  .navbar-default {
+    background: rgba(101, 101, 12, 0.3);
+    padding: 5px 0;
+  }
+
+  .navbar-default.navbar-shrink {
+    background-color: #162431 !important;
+    padding: 0;
+  }
+
+}
