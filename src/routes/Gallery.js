@@ -5,7 +5,7 @@ const Gallery = props => {
   const [media, setMedia] = useState(null);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/v1/media`)
+    axios.get(`/api/v1/media`)
       .then((res) => {
         setMedia(res.data);
         setLoading(false);
@@ -35,7 +35,7 @@ const Gallery = props => {
                         <div className="gallery_1">
                           <p>
                             <img
-                              src={`${process.env.REACT_APP_BACKEND_URL}/api/v1/media/${photoOrVideo._id}/photo`}
+                              src={`/api/v1/media/${photoOrVideo._id}/photo`}
                               alt={photoOrVideo.description}
                                  width="100%"
                             />

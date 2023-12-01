@@ -7,7 +7,7 @@ const Shows = props => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     axios
-      .get(`${process.env.REACT_APP_BACKEND_URL}/api/v1/shows/upcoming`)
+      .get(`/api/v1/shows/upcoming`)
       .then((res) => {
         setShows(res.data);
         setLoading(false);
@@ -42,7 +42,7 @@ const Shows = props => {
                       <div className="ih-item square effect13 left_to_right">
                         {show.URL &&
                           <a href={show.URL} target={"_blank"} rel={"noreferrer"}>
-                            <div className="img"><img src={`${process.env.REACT_APP_BACKEND_URL}/api/v1/shows/${show._id}/photo`} alt="img"/></div>
+                            <div className="img"><img src={`/api/v1/shows/${show._id}/photo`} alt="img"/></div>
                             <div className="info">
                               <h3>{show.venue}</h3>
                               {show.description &&
@@ -53,7 +53,7 @@ const Shows = props => {
                         }
                         {!show.URL &&
                           <>
-                            <div className="img"><img src={`${process.env.REACT_APP_BACKEND_URL}/api/v1/shows/${show._id}/photo`} alt="img"/></div>
+                            <div className="img"><img src={`/api/v1/shows/${show._id}/photo`} alt="img"/></div>
                             <div className="info">
                               <h3>{show.venue}</h3>
                               {show.description &&
