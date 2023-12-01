@@ -935,7 +935,6 @@ img:hover {
 /********************* latest_end ****************/
 /********************* footer ****************/
 #footer {
-  background-color: #212126;
   padding-top: 60px;
   padding-bottom: 80px;
 }
@@ -1031,6 +1030,7 @@ img:hover {
 .footer_main_2 li {
   display: inline;
   margin: 10px;
+  color: #eee;
 }
 
 .footer_main_2 li a {
@@ -1603,9 +1603,13 @@ img:hover {
 /********************* pages_end ****************/
 /********************* contact ****************/
 #contact {
-  background-color: #212126;
-  padding-top: 50px;
+  background-image: url('/public/img/elks_stage_45pct.jpg');
   padding-bottom: 70px;
+  padding-top: 80px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 86px;
   margin-top: 96px;
 }
 
@@ -1639,10 +1643,21 @@ img:hover {
 
 .contact_1 p {
   padding: 0;
-  margin: 0;
-  color: #bdbdbd;
+  color: #fff;
   font-size: 18px;
   line-height: 1.5;
+}
+
+.contact_1 p a {
+  text-decoration: none;
+  border: 1px solid #eab2b1;
+  background: #eab2b1;
+  color: #000;
+  font-weight: bold;
+}
+
+.contact_1 p a:hover {
+  background: #FFFFFF;
 }
 
 .contact_2 input {
@@ -2055,7 +2070,7 @@ img:hover {
     text-align: center;
   }
 
-  #center, #team, #tour.shows_page, #tour.epk_page {
+  #center, #team, #tour.shows_page, #tour.epk_page, #contact {
     margin-top: 50px;
     padding-top: 40px;
     background-position-y: 40px;
@@ -2106,7 +2121,7 @@ img:hover {
     margin: 5px 0;
   }
 
-  #center, #team, #tour.shows_page, #tour.epk_page{
+  #center, #team, #tour.shows_page, #tour.epk_page, #contact {
     padding-bottom: 60px;
     padding-top: 60px;
     margin-top: 50px;
@@ -2354,7 +2369,7 @@ img:hover {
     margin: 6px 2px 0 2px;
   }
 
-  #center, #team, #tour.shows_page, #tour.epk_page {
+  #center, #team, #tour.shows_page, #tour.epk_page, #contact {
     margin-top: 80px;
     background-position-y: 80px;
   }

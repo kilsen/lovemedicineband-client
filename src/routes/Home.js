@@ -158,6 +158,19 @@ const Home = props => {
             </div>
           </section>
         }
+        <section id="footer">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="col-sm-3"></div>
+                <div className="col-sm-6">
+                  <div className="ml-embedded" data-form="ajsfDx"></div>
+                </div>
+                <div className="col-sm-3"></div>
+              </div>
+            </div>
+          </div>
+        </section>
       </section>
     </>
   );

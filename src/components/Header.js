@@ -34,7 +34,7 @@ const Header = () => {
               <li><NavLink to="meet" className={({isActive}) => classNames({'nav-link': true, 'active': isActive})}>MEET THE BAND</NavLink></li>
               <li><NavLink to="gallery" className={({isActive}) => classNames({'nav-link': true, 'active': isActive})}>GALLERY</NavLink></li>
               <li><NavLink to="epk" className={({isActive}) => classNames({'nav-link': true, 'active': isActive})}>EPK</NavLink></li>
-              <li><NavLink to="contact" className={({isActive}) => classNames({'nav-link': true, 'active': isActive})}>CONTACT</NavLink></li>
+              <li><NavLink to="contact" className={({isActive}) => classNames({'nav-link': true, 'active': isActive})}>CONTACT US</NavLink></li>
             </ul>
           </div>
           {/* /.navbar-collapse*/}
