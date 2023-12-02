@@ -3,7 +3,7 @@ import axios from 'axios';
 import {formatInTimeZone} from "date-fns-tz";
 
 const Home = props => {
-  const [nextShow, setNextShow] = useState({});
+  const [nextShow, setNextShow] = useState(null);
   useEffect(() => {
     axios
       .get(`/api/v1/shows/next`)
@@ -141,9 +141,9 @@ const Home = props => {
                             <span> / </span>
                           </>
                         }
-                        {/*<>*/}
-                        {/*  {formatInTimeZone(new Date(nextShow.date), 'UTC', 'MMM d, yyyy')}*/}
-                        {/*</>*/}
+                        <>
+                          {formatInTimeZone(new Date(nextShow.date), 'UTC', 'MMM d, yyyy')}
+                        </>
                         {nextShow.address &&
                           <>
                             <br/>
