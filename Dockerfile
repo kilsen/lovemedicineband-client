@@ -1,4 +1,4 @@
-FROM node:18.18.0 AS builder
+FROM --platform=linux/amd64 node:18.18.0 AS builder
 RUN mkdir /usr/local/lovemedicineband
 WORKDIR /usr/local/lovemedicineband
 COPY package.json /usr/local/lovemedicineband/package.json
@@ -9,7 +9,7 @@ RUN npm install
 # ENV GENERATE_SOURCEMAP false
 RUN npm run build
 
-FROM nginx:1.25.3
+FROM --platform=linux/amd64 nginx:1.25.3
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY --from=builder /usr/local/lovemedicineband/build /usr/share/nginx/html
 
