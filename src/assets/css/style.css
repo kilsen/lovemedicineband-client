@@ -1683,20 +1683,25 @@ img:hover {
 
 .contact_4 p {
   padding-top: 40px;
+  color: #fff;
 }
 
-.contact_4 p a {
+.contact_4 p a, .contact_4 p button {
   text-decoration: none;
   border: 1px solid #eab2b1;
   background: #eab2b1;
-  color: #000;
   font-size: 18px;
   padding: 20px 30px 20px 30px;
   font-weight: bold;
+  color: #000;
 }
 
-.contact_4 p a:hover {
+.contact_4 p a:hover, .contact_4 p button:hover {
   background: #FFFFFF;
+}
+
+.contact_4 p button {
+  letter-spacing: 2px;
 }
 
 .contact_main {

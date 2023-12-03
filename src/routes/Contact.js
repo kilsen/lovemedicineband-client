@@ -1,4 +1,5 @@
 import React from 'react';
+import MailingListSignupForm from "../components/MailingListSignupForm";
 
 const Contact = props => {
   return (
@@ -27,6 +28,7 @@ const Contact = props => {
           </div>
         </div>
       </div>
+      <MailingListSignupForm/>
     </section>
   );
 };
