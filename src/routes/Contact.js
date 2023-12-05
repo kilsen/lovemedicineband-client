@@ -24,7 +24,6 @@ const Contact = props => {
                 <p><a href={"mailto: info@lovemedicineband.com"}>info@lovemedicineband.com</a></p>.
               </div>
             </div>
-            <div className="ml-embedded" data-form="ajsfDx"></div>
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ const MailingListSignupForm = props => {
     setError(null);
     try {
       await axios
-        .post(`http://localhost:3001/api/v1/mailingList/subscribe`, {
+        .post(`/api/v1/mailingList/subscribe`, {
             email, firstName, lastName
           }
         );
