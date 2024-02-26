@@ -60,7 +60,7 @@ const Home = props => {
               <div className="col-sm-3">
                 <div className="middle_2">
                   <div className="ih-item square effect15 top_to_bottom">
-                    <div className="img"><img src="img/lm_at_pool.jpg" alt="img"/></div>
+                    <div className="img"><img src="img/lm-members-square.jpg" alt="img"/></div>
                   </div>
                 </div>
               </div>
@@ -143,7 +143,7 @@ const Home = props => {
                         </>
                       }
                       <>
-                        {formatInTimeZone(new Date(nextShow.date), 'UTC', 'MMM d, yyyy')}
+                        {formatInTimeZone(new Date(nextShow.date), 'UTC', 'EEE MMM d, yyyy')}
                       </>
                       {nextShow.address &&
                         <>
@@ -154,6 +154,11 @@ const Home = props => {
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className={"col-sm-12 padding_all text-center"}>
+                <h3><a href={"./shows"}>View our full schedule of upcoming shows</a></h3>
               </div>
             </div>
           </div>

@@ -16,7 +16,7 @@ const Meet = props => {
             <div className="col-sm-12">
               <div className="col-sm-3">
                 <div className="team_1">
-                  <div className="ih-item square effect7"><a href={""}>
+                  <div className="ih-item square effect7">
                     <div className="img"><img src="img/biopics/dean.jpg" alt="img"/></div>
                     <div className="info">
                       <h3>Dean Adler</h3>
@@ -26,7 +26,7 @@ const Meet = props => {
                         years ago he reconnected with his love of music. He’s also played with other local bands
                         including TAG and Fox Maple Band in addition to Love Medicine.</p>
                     </div>
-                  </a></div>
+                  </div>
                 </div>
                 <div className="team_2">
                   <h3 className="text-center">Dean Adler</h3>
@@ -35,7 +35,7 @@ const Meet = props => {
               </div>
               <div className="col-sm-3">
                 <div className="team_1">
-                  <div className="ih-item square effect7"><a href={""}>
+                  <div className="ih-item square effect7">
                     <div className="img"><img src="img/biopics/lewjack.jpg" alt="img"/></div>
                     <div className="info">
                       <h3>Lewjack Dorrance</h3>
@@ -44,7 +44,7 @@ const Meet = props => {
                         from the classic rock and roll of his youth to techno modern bass lines on his American Fender
                         P-bass. He loves the synergy of a four piece band where every member plays a critical role.</p>
                     </div>
-                  </a></div>
+                  </div>
                 </div>
                 <div className="team_2">
                   <h3 className="text-center">Lewjack Dorrance</h3>
@@ -53,7 +53,7 @@ const Meet = props => {
               </div>
               <div className="col-sm-3">
                 <div className="team_1">
-                  <div className="ih-item square effect7"><a href={""}>
+                  <div className="ih-item square effect7">
                     <div className="img"><img src="img/biopics/kevin.jpg" alt="img"/></div>
                     <div className="info">
                       <h3>Kevin Ilsen</h3>
@@ -64,7 +64,7 @@ const Meet = props => {
                         Beach County, and joined the vibrant local open mic scene, where he met other like-minded
                         musicians to form Love Medicine.</p>
                     </div>
-                  </a></div>
+                  </div>
                 </div>
                 <div className="team_2">
                   <h3 className="text-center">Kevin Ilsen</h3>
@@ -73,7 +73,7 @@ const Meet = props => {
               </div>
               <div className="col-sm-3">
                 <div className="team_1">
-                  <div className="ih-item square effect7"><a href={""}>
+                  <div className="ih-item square effect7">
                     <div className="img"><img src="img/biopics/pat.jpg" alt="img"/></div>
                     <div className="info">
                       <h3>Pat Magee</h3>
@@ -82,7 +82,7 @@ const Meet = props => {
                         Physical Therapist and has spent his career doing what he loves most – helping people. Pat
                         believes that music is a fantastic way to bring people together and make life richer.</p>
                     </div>
-                  </a></div>
+                  </div>
                 </div>
                 <div className="team_2">
                   <h3 className="text-center">Pat Magee</h3>

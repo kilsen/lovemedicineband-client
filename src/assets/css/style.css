@@ -844,6 +844,16 @@ ul {
   margin: 0 20px;
 }
 
+#tour h3 a {
+  color: #fff;
+}
+
+#tour h3 a:hover {
+  background: #eab2b1;
+  color: #000;
+  text-decoration: none;
+}
+
 /********************* tour_end ****************/
 /********************* most ****************/
 #most {
@@ -1493,7 +1503,7 @@ img:hover {
   transition: all 0.35s 0.3s linear;
 }
 
-#team .ih-item.square.effect7 a:hover .img {
+#team .ih-item.square.effect7:hover .img {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
@@ -1501,13 +1511,13 @@ img:hover {
   transform: scale(1.2);
 }
 
-#team .ih-item.square.effect7 a:hover .info {
+#team .ih-item.square.effect7:hover .info {
   visibility: visible;
   opacity: 1;
 }
 
-#team .ih-item.square.effect7 a:hover .info h3,
-#team .ih-item.square.effect7 a:hover .info p {
+#team .ih-item.square.effect7:hover .info h3,
+#team .ih-item.square.effect7:hover .info p {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -1967,7 +1977,7 @@ img:hover {
   }
 
   #team .ih-item.square.effect7 .info p {
-    font-size: 32px;
+    font-size: 12px;
   }
 
   .team_3 ul {
@@ -2298,7 +2308,7 @@ img:hover {
   }
 
   #team .ih-item.square.effect7 .info p {
-    font-size: 8px;
+    font-size: 6px;
   }
 
   .team_2 h3 a {

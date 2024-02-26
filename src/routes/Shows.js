@@ -87,7 +87,7 @@ const Shows = props => {
                         </>
                       }
                       <>
-                        {formatInTimeZone(new Date(show.date), 'UTC', 'MMM d, yyyy')}
+                        {formatInTimeZone(new Date(show.date), 'UTC', 'EEE MMM d, yyyy')}
                       </>
                       {show.address &&
                         <>
