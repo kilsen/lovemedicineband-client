@@ -493,8 +493,14 @@ ul {
 /********************* album ****************/
 #album {
   background-color: #212126;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 60px;
+  /*padding-bottom: 60px;*/
+  margin-top: 96px;
+  /*background-image: url('/public/img/fight-fire-with-music.jpg');*/
+  /*background-attachment: fixed;*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  /*background-position-y: 86px;*/
 }
 
 .album_1 h1 {
@@ -538,10 +544,10 @@ ul {
 
 #album .ih-item.square {
   position: relative;
-  width: 752px;
-  height: 360px;
-  border: 8px solid #fff;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  /*width: 752px;*/
+  /*height: 360px;*/
+  /*border: 8px solid #fff;*/
+  /*box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);*/
 }
 
 #album .ih-item.square .info {
@@ -701,10 +707,10 @@ ul {
 
 #tour .ih-item.square {
   position: relative;
-  width: 380px;
-  height: 280px;
+  /*width: 380px;*/
+  /*height: 280px;*/
   border: 8px solid #fff;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  /*box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);*/
 }
 
 #tour .ih-item.square .info {
@@ -1420,7 +1426,7 @@ img:hover {
   width: 270px;
   height: 270px;
   border: 8px solid #fff;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  /*box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);*/
 }
 
 #team .ih-item.square .info {
@@ -2344,9 +2350,9 @@ img:hover {
     height: 200px;
   }
 
-  #album .ih-item img {
-    height: 300px;
-  }
+  /*#album .ih-item img {*/
+  /*  height: 300px;*/
+  /*}*/
 
   #tour .ih-item img {
     height: 250px;
@@ -2623,4 +2629,47 @@ img:hover {
 
 .embed-responsive-4by3 {
   padding-bottom: 75%
+}
+
+#album .tour_2 {
+  padding-top: 20px;
+}
+
+#team .row.white {
+  background-color: white;
+  padding: 20px 0;
+}
+
+/*#team.fightfire_page ul {*/
+/*  list-style: disc !important;*/
+/*  margin-left: 20px;*/
+/*}*/
+
+#team.fightfire_page {
+  background-color: #212126;
+  background-image: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+}
+
+#team.fightfire_page .col-sm-4 {
+  padding: 10px;
+}
+
+#team.fightfire_page .team_1 h3 {
+  font-size: 20px !important;
+}
+
+#team.fightfire_page .team_1 p {
+  font-size: 14px !important;
+}
+
+#team h2 {
+  color: white;
+  font-size: 36px;
+}
+
+#team p {
+  color: white;
 }
