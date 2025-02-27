@@ -8,7 +8,7 @@ const Home = props => {
   const [nextShow, setNextShow] = useState(null);
   useEffect(() => {
     axios
-      .get(`/api/v1/shows/next`)
+      .get((process.env.REACT_APP_serverURL || '') + `/api/v1/shows/next`)
       .then((res) => setNextShow(res.data))
       .catch(err => {
         console.error(err.message);
@@ -96,7 +96,7 @@ const Home = props => {
                       <div className="ih-item square effect13 left_to_right">
                         {nextShow.URL &&
                           <a href={nextShow.URL} target={"_blank"} rel={"noreferrer"}>
-                            <div className="img"><img src={`/api/v1/shows/${nextShow._id}/photo`} alt="img"/></div>
+                            <div className="img"><img src={(process.env.REACT_APP_serverURL || '') + `/api/v1/shows/${nextShow._id || nextShow.id}/photo`} alt="img"/></div>
                             <div className="info">
                               <h3>{nextShow.venue}</h3>
                               {nextShow.description &&
@@ -107,7 +107,7 @@ const Home = props => {
                         }
                         {!nextShow.URL &&
                           <>
-                            <div className="img"><img src={`/api/v1/shows/${nextShow._id}/photo`} alt="img"/></div>
+                            <div className="img"><img src={(process.env.REACT_APP_serverURL || '') + `/api/v1/shows/${nextShow._id || nextShow.id}/photo`} alt="img"/></div>
                             <div className="info">
                               <h3>{nextShow.venue}</h3>
                               {nextShow.description &&
