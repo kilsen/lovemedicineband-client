@@ -9,7 +9,7 @@ const Meet = props => {
             <div className="col-sm-12 padding_all">
               <div className="copies_1">
                 {/*<h6>Love Medicine</h6>*/}
-                <h1 className="text-center">Meet The Band</h1>
+                <h1 className="text-center">Meet the Band</h1>
                 {/*<p></p>*/}
               </div>
             </div>
