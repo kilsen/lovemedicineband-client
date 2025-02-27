@@ -1423,8 +1423,8 @@ img:hover {
 
 #team .ih-item.square {
   position: relative;
-  width: 270px;
-  height: 270px;
+  /*width: 270px;*/
+  /*height: 270px;*/
   border: 8px solid #fff;
   /*box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);*/
 }
@@ -2355,7 +2355,7 @@ img:hover {
   /*}*/
 
   #tour .ih-item img {
-    height: 250px;
+    /*height: 250px;*/
   }
 
   #copies .ih-item img {
@@ -2363,7 +2363,7 @@ img:hover {
   }
 
   #team .ih-item img {
-    height: 250px;
+    /*height: 250px;*/
   }
 }
 
