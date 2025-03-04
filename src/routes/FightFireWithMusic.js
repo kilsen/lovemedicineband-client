@@ -19,7 +19,7 @@ const FightFireWithMusic = props => {
               <div className="col-sm-8">
                 <div className="contact_1">
                   <h1 className="text-center">Fight Fire with . . . MUSIC!</h1>
-                  <div className="Greater_1"><h2 className="text-center">We raised $8300 at this event!</h2></div>
+                  <div className="Greater_1"><h2 className="text-center">We raised over $8500 at this event!</h2></div>
                   <h4 className="text-center">See below if you'd still like to donate</h4>
                 </div>
               </div>
